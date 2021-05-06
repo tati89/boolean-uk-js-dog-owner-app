@@ -82,7 +82,7 @@ function dogCard(dog) {
 }
 
 const listofDogs = document.querySelector(".dogs-list");
-function randerDog(dog) {
+function renderDog(dog) {
   let listItemel = document.createElement("li");
   let dogName = dog.name;
   listItemel.setAttribute("class", "dogs-list__button");
@@ -95,5 +95,5 @@ function randerDog(dog) {
 }
 
 for (const dog of data) {
-  randerDog(dog);
+  renderDog(dog);
 }
